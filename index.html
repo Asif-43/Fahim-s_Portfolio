@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Fahim Shahriar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Md Fahim Shahriar</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Md Fahim Shahriar. I am currently pursuing an MSC in Computer Science and Engineering at <b>Jagannath University</b>. I have completed my BSC in Computer Science and Engineering from Green University of Bangladesh.I have a strong foundation in various technologies including <b>HTML, CSS, JavaScript, Bootstrap, MySQL, and Laravel</b>. I am also skilled in <b>problem-solving and analytical thinking</b>.</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <!-- Add your projects here -->
+            <div class="project">
+                <img src="project/love_calc.png" alt="Project 1">
+                <h3>Title: <a href="https://love-calculator-pink.vercel.app/">Love Calculator</a></h3>
+                <p>The Love Calculator project is a web application created with HTML, CSS, and JavaScript. It takes user input of two names and calculates a "love score" based on predefined algorithms. The result, along with a cute message or image, indicates the compatibility level between the individuals. It's a fun and interactive project showcasing the integration of front-end technologies for user engagement.</p>
+            </div>
+            <div class="project">
+                <img src="project/running.png" alt="Project 1">
+                <h3>Running Another project</h3>
+            </div>
+            <!-- Repeat the project div for more projects -->
+        </div>
+    </section>
+
+    <section id="photos">
+        <h2>Photos</h2>
+        <div class="photo-gallery">
+            <div class="photo">
+                <img src="Fahim/IMG_4947.JPG" alt="Photo 1" >
+                <p>Next update</p>
+            </div>
+            <div class="photo">
+                <img src="Fahim/IMG_4928.JPG" alt="Photo 2" >
+                <p>next episode</p>
+            </div>
+            <div class="photo">
+                <img src="Fahim/20230424_155918.jpg" alt="Photo 3">
+                <p>ok?</p>
+            </div><div class="photo">
+                <img src="Fahim/PXL_20230425_141527863.PORTRAIT.jpg" alt="Photo 4">
+                <p>Thanks</p>
+            </div>
+            
+            <!-- Repeat the photo div for more photos -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            
+            <button type="submit">Send</button>
+        </form>
+        <div id="formMessage"></div>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/fahim-shahriar-6247a4183/" target="_blank">
+                <img src="logo/linkedin.png" alt="LinkedIn" height="40px" width="40px">
+            </a>
+            <a href="https://www.facebook.com/fahimshahriar1999" target="_blank">
+                <img src="logo/facebook.png" alt="Facebook" height="40px" width="40px">
+            </a>
+            <a href="https://github.com/Asif-43" target="_blank">
+                <img src="logo/github.png" alt="GitHub" height="40px" width="40px">
+            </a>
+            <a href="https://www.stopstalk.com/user/profile/FahimShahriar" target="_blank">
+                <img src="logo/stopstalk.png" alt="StopStalk" height="40px" width="40px">
+            </a>
+        </div>
+        <p>    </p>
+
+        <a href="https://drive.google.com/file/d/1sE_WG_sZA15hlSD1kH3ysKsNPzjOEqrM/view?usp=sharingyour_cv.pdf" download>Download My CV</a>
+        <p>&copy; 2024 <a href="https://www.linkedin.com/in/fahim-shahriar-6247a4183/">Md Fahim Shahriar</a>. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
